@@ -1,0 +1,39 @@
+{
+  "name": "universal-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react": "webpack -p --config webpack.react.config.js",
+    "preact": "webpack -p --config webpack.preact.config.js",
+    "hyperscript": "webpack -p --config webpack.hyperscript.config.js",
+    "bel": "webpack -p --config webpack.bel.config.js",
+    "react-dev": "webpack-dev-server --config webpack.react.config.js",
+    "preact-dev": "webpack-dev-server --config webpack.preact.config.js",
+    "hyperscript-dev": "webpack-dev-server --config webpack.hyperscript.config.js",
+    "bel-dev": "webpack-dev-server --config webpack.bel.config.js",
+    "deku-dev": "webpack-dev-server --config webpack.deku.config.js",
+    "build": "mkdir -p dist && npm run react && npm run preact && npm run hyperscript && npm run bel",
+    "gh-pages": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "add-px-to-style": "^1.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "bel": "^4.4.2",
+    "deku": "^2.0.0-rc16",
+    "gh-pages": "^0.11.0",
+    "hyperscript": "^1.4.7",
+    "preact": "^4.8.0",
+    "react": "^15.2.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "yo-yo": "^1.2.2"
+  }
+}
