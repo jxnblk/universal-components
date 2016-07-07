@@ -15,7 +15,8 @@ const config = {
       ]
     },
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' }
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
+      { test: /\.md/, loader: 'html!highlight!markdown' }
     ]
   },
   devServer: {

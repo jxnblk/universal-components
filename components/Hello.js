@@ -3,6 +3,7 @@ import Button from './Button'
 
 const handleClick = lib => e => {
   console.log('Hello', lib)
+  alert(`Hello ${lib}`)
 }
 
 const Hello = ({ lib }) => {
