@@ -34,7 +34,6 @@
     "highlight-loader": "^0.7.2",
     "html-loader": "^0.4.3",
     "hyperscript": "^1.4.7",
-    "inferno": "^0.7.24",
     "inferno-create-element": "^0.7.24",
     "inferno-dom": "^0.7.24",
     "markdown-loader": "^0.1.7",
