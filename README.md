@@ -70,12 +70,13 @@ const Hello = ({ lib }) => {
 export default Hello
 ```
 
-These components are rendered by four different libraries:
+These components are rendered by five different libraries:
 
 - React
 - Preact
 - Hyperscript
 - Bel
+- Inferno
 
 ---
 

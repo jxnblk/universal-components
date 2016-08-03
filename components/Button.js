@@ -14,8 +14,8 @@ const sx = {
   cursor: 'pointer'
 }
 
-const Button = ({ ...props }) => (
-  <button {...props} style={sx} />
+const Button = ({ children, ...props }) => (
+  <button {...props} style={sx} >{children}</button>
 )
 
 export default Button
